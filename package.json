@@ -1,22 +1,37 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-quick-start-shiny",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A minimal Electron application using R Shiny",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/superchordate/electron-quick-start-shiny",
   "keywords": [
     "Electron",
     "quick",
     "start",
     "tutorial",
+    "shiny",
+    "R",
     "demo"
   ],
-  "author": "GitHub",
+  "author": "Bryce Chamberlain",
   "license": "CC0-1.0",
   "devDependencies": {
+    "@electron-forge/cli": "^7.4.0",
+    "@electron-forge/maker-deb": "^7.4.0",
+    "@electron-forge/maker-rpm": "^7.4.0",
+    "@electron-forge/maker-squirrel": "^7.4.0",
+    "@electron-forge/maker-zip": "^7.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+    "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron/fuses": "^1.8.0",
     "electron": "^31.1.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
   }
 }
