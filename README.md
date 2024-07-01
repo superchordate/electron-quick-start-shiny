@@ -1,40 +1,18 @@
 # electron-quick-start-shiny-shiny
 
-**Clone and run for a quick way to see Electron in action.**
+This is a modification of https://github.com/electron/electron-quick-start to facilitate the use of a R Shiny app. With it, you can package an R Shiny app into an offline executable that does not require an R installation. 
 
-This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start) within the Electron documentation.
+Please see https://github.com/superchordate/photon for info on how to use this repository.
 
-A basic Electron application needs just these files:
+## About Me
 
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
-- `preload.js` - A content script that runs before the renderer process loads.
+I'm an independent contractor helping companies build custom cloud apps and leverage data science, visual analytics, and AI. I offer low introductory rates, free consultation and estimates, and no minimums, so contact me today and let's chat about how I can help!
 
-You can learn more about each of these components in depth within the [Tutorial](https://electronjs.org/docs/latest/tutorial/tutorial-prerequisites).
+https://www.brycechamberlainllc.com/
 
-## To Use
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+# Attribution and More Info
 
-```bash
-# Clone this repository
-git clone https://github.com/electron/electron-quick-start-shiny-shiny
-# Go into the repository
-cd electron-quick-start-shiny-shiny
-# Install dependencies
-npm install
-# Run the app
-npm start
-```
+`main.js` was copied from https://github.com/COVAIL/electron-quick-start on 6/29/2024 and then modified. It was not forked due to the repo being large and buggy as a result of full R installations being included in the repo. Big thanks to [COVAIL](https://github.com/COVAIL) for the head start!
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
-
-## Resources for Learning Electron
-
-- [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
-- [Electron Fiddle](https://electronjs.org/fiddle) - Electron Fiddle, an app to test small Electron experiments
-
-## License
-
-[CC0 1.0 (Public Domain)](LICENSE.md)
+Learn more about Electron at https://electronjs.org/docs/latest/tutorial/quick-start.
