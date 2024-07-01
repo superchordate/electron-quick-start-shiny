@@ -11,7 +11,7 @@ I'm an independent contractor helping companies build custom cloud apps and leve
 https://www.brycechamberlainllc.com/
 
 
-# Attribution and More Info
+## Attribution and More Info
 
 `main.js` was copied from https://github.com/COVAIL/electron-quick-start on 6/29/2024 and then modified. It was not forked due to the repo being large and buggy as a result of full R installations being included in the repo. Big thanks to [COVAIL](https://github.com/COVAIL) for the head start!
 
